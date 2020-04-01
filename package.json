@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/srikaanthtb/notes/issues"
   },
-  "homepage": "https://github.com/srikaanthtb/notes#readme"
+  "homepage": "https://github.com/srikaanthtb/notes#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }
