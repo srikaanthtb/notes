@@ -10,6 +10,6 @@ function testGetNote() {
   noteList.noteadd('Hi');
   assert.isTrue(noteList.givelist().length === 2);
   assert.isTrue(noteList.givelist()[0].notegive() === 'Hello');
-}
+};
 
 testGetNote();

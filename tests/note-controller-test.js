@@ -13,6 +13,8 @@ CheckInstanceOfNoteController();
 
 
 function CheckHTMLisReturning() {
-
+var expectstring = "<ul><li><div>yo</div></li><li><div>son</div></li></ul>";
+console.log(expectstring);
+  assert.isTrue(expectstring === noteController.insertHTML())
 };
 CheckHTMLisReturning();
