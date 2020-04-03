@@ -8,7 +8,9 @@ Notelistview.prototype.showlist = function () {
 string = "<ul>"
  for (let i = 0; i < this.notelist.givelist().length; i++) {
    var n = this.notelist.givelist()[i].text
-   string += "<li><div>"+ n + "</div></li>"
+   console.log(n);
+   var singlenoteview = new Singlenoteview(n);
+   string += "<li>" + singlenoteview.shownote() + "</li>"
  }
  string = string + "</ul>"
  return string
