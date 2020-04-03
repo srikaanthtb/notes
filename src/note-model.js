@@ -1,6 +1,7 @@
 (function(exports) {
-function Note(text) {
+function Note(text, id= "noid") {
  this.text = text || 'i like javascript';
+ this.id = id
 };
 
 Note.prototype.notegive = function () {
